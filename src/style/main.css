@@ -13,16 +13,37 @@
   position: fixed;
   padding: 15px 10px 15px 10px;
   width: 100%;
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+.navbar.color-active{
+  background-color: var(--navbar-color);
+  padding: 20px 0px 20px 0px;
 }
 .navbar .nav-link a {
-  padding: 5px 10px 5px 10px;
+  padding: 5px 30px 5px 30px;
   text-decoration: none;
   font-weight: 600;
+  font-size: larger;
+  color: var(--navbar-color-text);
 }
 .navbar .nav-link a:hover {
   color: var(--secondary-color);
 }
+.navbar .nav-link .active {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+.navbar .nav-link .active:hover {
+  color: var(--navbar-color);
+}
+.navbar .navbar-brand {
+  padding: 5px 30px 5px 0px;
+}
 
+.btn {
+  color: var(--navbar-color-text);
+}
 header {
   background: #c6ffdd; /* fallback for old browsers */
   background: -webkit-linear-gradient(
