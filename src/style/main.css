@@ -16,7 +16,7 @@
   transition: all 0.3s ease;
   z-index: 1000;
 }
-.navbar.color-active{
+.navbar.color-active {
   background-color: var(--navbar-color);
   padding: 20px 0px 20px 0px;
 }
@@ -59,3 +59,23 @@ header {
     #c6ffdd
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+/* HOMEPAGE */
+.homepage .header-box h1 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+.homepage .header-box h1 span {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: var(--color-text);
+}
+.homepage .header-box p {
+  line-height: 2;
+  font-weight: 500;
+  color: var(--color-text);
+}
+.homepage .header-box img{
+width: 100%;
+  }
